@@ -1,5 +1,4 @@
-name: 🚀 Deploy to VPS
-
+name: Deploy to VPS
 on:
   push:
     branches:
@@ -7,14 +6,12 @@ on:
 
 jobs:
   deploy:
-    name: Deploy to Reg.ru VPS
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repo
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Deploy over SSH
+      - name: Deploy via SSH
         uses: appleboy/ssh-action@v0.1.10
         with:
           host: 95.163.232.252
