@@ -1,0 +1,175 @@
+lockfileVersion: '6.0'
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+importers:
+  .:
+    devDependencies:
+      '@typescript-eslint/eslint-plugin':
+        specifier: 7.7.1
+        version: 7.7.1
+      '@typescript-eslint/parser':
+        specifier: 7.7.1
+        version: 7.7.1
+      eslint:
+        specifier: 8.57.0
+        version: 8.57.0
+      eslint-config-prettier:
+        specifier: 9.1.0
+        version: 9.1.0
+      eslint-plugin-import:
+        specifier: 2.29.1
+        version: 2.29.1
+      eslint-plugin-jsx-a11y:
+        specifier: 6.8.0
+        version: 6.8.0
+      eslint-plugin-react:
+        specifier: 7.33.2
+        version: 7.33.2
+      eslint-plugin-react-hooks:
+        specifier: 4.6.0
+        version: 4.6.0
+      prettier:
+        specifier: 3.2.5
+        version: 3.2.5
+      typescript:
+        specifier: 5.4.5
+        version: 5.4.5
+  apps/api:
+    dependencies:
+      argon2:
+        specifier: 0.31.2
+        version: 0.31.2
+      cors:
+        specifier: 2.8.5
+        version: 2.8.5
+      dotenv:
+        specifier: 16.4.5
+        version: 16.4.5
+      express:
+        specifier: 4.19.2
+        version: 4.19.2
+      jsonwebtoken:
+        specifier: 9.0.2
+        version: 9.0.2
+      mongoose:
+        specifier: 8.3.4
+        version: 8.3.4
+      pino:
+        specifier: 8.19.0
+        version: 8.19.0
+      pino-http:
+        specifier: 8.6.1
+        version: 8.6.1
+      zod:
+        specifier: 3.23.8
+        version: 3.23.8
+    devDependencies:
+      '@types/cors':
+        specifier: 2.8.17
+        version: 2.8.17
+      '@types/express':
+        specifier: 4.17.21
+        version: 4.17.21
+      '@types/jest':
+        specifier: 29.5.12
+        version: 29.5.12
+      '@types/jsonwebtoken':
+        specifier: 9.0.5
+        version: 9.0.5
+      '@types/node':
+        specifier: 20.12.7
+        version: 20.12.7
+      '@types/pino':
+        specifier: 8.7.1
+        version: 8.7.1
+      jest:
+        specifier: 29.7.0
+        version: 29.7.0
+      ts-jest:
+        specifier: 29.1.2
+        version: 29.1.2
+      tsx:
+        specifier: 4.7.2
+        version: 4.7.2
+  apps/web:
+    dependencies:
+      '@digital-yagoda/sdk':
+        specifier: workspace:^
+        version: link:../../packages/sdk
+      '@digital-yagoda/ui':
+        specifier: workspace:^
+        version: link:../../packages/ui
+      i18next:
+        specifier: 23.10.1
+        version: 23.10.1
+      next:
+        specifier: 14.2.3
+        version: 14.2.3
+      next-pwa:
+        specifier: 5.6.0
+        version: 5.6.0
+      react:
+        specifier: 18.2.0
+        version: 18.2.0
+      react-dom:
+        specifier: 18.2.0
+        version: 18.2.0
+      react-hook-form:
+        specifier: 7.51.3
+        version: 7.51.3
+      react-i18next:
+        specifier: 13.5.0
+        version: 13.5.0
+    devDependencies:
+      '@types/node':
+        specifier: 20.12.7
+        version: 20.12.7
+      '@types/react':
+        specifier: 18.2.74
+        version: 18.2.74
+      '@types/react-dom':
+        specifier: 18.2.22
+        version: 18.2.22
+      autoprefixer:
+        specifier: 10.4.17
+        version: 10.4.17
+      postcss:
+        specifier: 8.4.38
+        version: 8.4.38
+      tailwindcss:
+        specifier: 3.4.3
+        version: 3.4.3
+      typescript:
+        specifier: 5.4.5
+        version: 5.4.5
+  packages/core:
+    devDependencies:
+      typescript:
+        specifier: 5.4.5
+        version: 5.4.5
+  packages/sdk:
+    dependencies:
+      axios:
+        specifier: 1.6.8
+        version: 1.6.8
+      socket.io-client:
+        specifier: 4.7.5
+        version: 4.7.5
+    devDependencies:
+      typescript:
+        specifier: 5.4.5
+        version: 5.4.5
+  packages/ui:
+    peerDependencies:
+      react:
+        specifier: ^18.2.0
+        version: 18.2.0
+      react-dom:
+        specifier: ^18.2.0
+        version: 18.2.0
+    devDependencies:
+      typescript:
+        specifier: 5.4.5
+        version: 5.4.5
+packages: {}
