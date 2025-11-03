@@ -20,44 +20,7 @@ module.exports = {
       }
     }
   },
-  env: {
-    es2021: true,
-    node: true
-  },
-  ignorePatterns: ['.eslintrc.cjs', 'dist', 'node_modules'],
-  overrides: [
-    {
-      files: ['apps/web/**/*.{ts,tsx}'],
-      env: {
-        browser: true,
-        node: true
-      }
-    },
-    {
-      files: ['packages/ui/**/*.{ts,tsx}'],
-      env: {
-        browser: true
-      }
-    },
-    {
-      files: ['apps/web/public/service-worker.js'],
-      env: {
-        serviceworker: true
-      }
-    },
-    {
-      files: [
-        'apps/web/postcss.config.js',
-        'apps/web/tailwind.config.js',
-        'apps/web/next.config.mjs',
-        'apps/api/jest.config.js',
-        'infra/**/*.js'
-      ],
-      env: {
-        node: true
-      }
-    }
-  ],
+
   rules: {
     'import/order': [
       'warn',
