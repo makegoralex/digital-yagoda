@@ -1,0 +1,32 @@
+{
+  "name": "POS — Ягода",
+  "short_name": "POS",
+  "start_url": "/pos?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#111827",
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Новый заказ",
+      "url": "/pos/new",
+      "description": "Создать заказ"
+    },
+    {
+      "name": "KDS",
+      "url": "/kds"
+    },
+    {
+      "name": "Админка",
+      "url": "/admin"
+    }
+  ]
+}
