@@ -20,7 +20,7 @@ module.exports = {
       }
     }
   },
-  ignorePatterns: ['.eslintrc.cjs', 'dist', 'node_modules'],
+
   rules: {
     'import/order': [
       'warn',
